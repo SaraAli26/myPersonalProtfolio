@@ -4,6 +4,7 @@ font-family: 'Sofia';
 font-size: 20px;
 }
 #welcome-section{
+background-attachment: fixed;
 min-height: 55vh;
 padding-top: 5vh;
 line-height: 100vh;
