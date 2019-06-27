@@ -14,7 +14,11 @@ border: none;
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("Ba1.jpg");
 text-align: center;
 }
-
+img {
+max-width: 100%;
+display: block;
+height: auto;
+}
 #projects{
 padding-top: 20vh;
 text-align: center;
