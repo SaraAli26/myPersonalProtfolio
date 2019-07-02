@@ -2,6 +2,7 @@
   <head>
     <title>Sara Ahmed</title>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="myProtfolio.css">
     <link rel="stylesheet" type="text/css" href="animate.css">
@@ -38,7 +39,7 @@
     <nav>
       <ul id="navbar">
 		<img class="logo" src="logosmall.png" alt="SaraAhmed'slogo">
-        <li><a href="#About">About Sara</a></li>
+        <li><a href="#About">About</a></li>
 		<li><a href="#projects">My Projects</a></li>
 		<li><a href="#Contact">Get in totuch</a></li>
       </ul>
@@ -46,16 +47,16 @@
 
 
     <div id="welcome-section">
-      <h1>Hi, It's Sara Ahmed :)</h1>
+      <h1 class="mai">Hi, It's Sara :)</h1>
       <p></p>
     </div>
 
 	<div id="About">
-      <p>About Sara</p>
+      <p>About me...</p>
       <div id="aboutcontainer">
-        <div><img id ="personalphoto" src="me.jpg" alt="" height="200em" width="200em"></div>
+        <div class="personalPhotoSection"><img id ="personalphoto" src="me.jpg" alt="" height="200em" width="200em"></div>
         <div class="aboutsections">
-		A software Developer that currently works as a freelancer in Khartoum/ Sudan, i do Front and Back - end.
+		A software Developer, currently works as a freelancer in Khartoum/ Sudan, i do Front and Back - end.
 		<br><br> Graduated with a masters degree in software Engineering, worked as a technical support for 2 years, then shifted for Software developement,
 		along with my tchnical skills am intrested in Social change, voulnteering with Eduaction without borders Social movement.
 		<br><br> Feel free to contact me through any of the menthoined channles above if you want me to work with you or you just wanna say hi :).
@@ -67,39 +68,46 @@
       <p>Projects by me...</p>
 
       <div id="projectscontainer">
-      <div class="project">
-        <div class="projectphoto">
-        <img class="pros" src="logo1.jpg" alt="Generous Garden Project">
-      </div>
-        <div class="project-tile">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-          <a href=""></a>
-        </div>
-      </div>
+	  
+	  <div class="card" onclick="this.classList.toggle('expanded')">
+	<img class="pros" src="logo1.jpg" alt="Generous Garden Project">
+  <div class="text1">
+    <div class="text-content">
+      <h1 class="title">OUR GOODS</h1>
+      <div class="body-text">are delivered with the same high quality as decades ago</div>
+    </div>
+  </div>
+  <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+</div>
 
-      <div class="project">
-        <div class="project-photo">
-          <img class="pros" src="logo2.png" alt="AI Doctor"></div>
-        <div class="project-tile">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-          <a href=""></a>
-        </div>
-      </div>
+<div class="card" onclick="this.classList.toggle('expanded')">
+<img class="pros" src="logo2.png" alt="AI Doctor">
+  <div class="text2">
+    <div class="text-content">
+      <h1 class="title">OUR LABEL</h1>
+      <div class="body-text">has stayed the same reliable brand for nearly a century</div>
+    </div>
+  </div>
+  <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+</div>
 
-      <div class="project">
-        <div class="project-photo">
-          <img class="pros" src="logo3.jpg" alt="Zangat"></div>
-        <div class="project-tile">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-          <a href=""></a>
-        </div>
-      </div>
+<div class="card" onclick="this.classList.toggle('expanded')">
+<img class="pros" src="logo3.jpg" alt="Zangat">
+  <div class="text3">
+    <div class="text-content">
+      <h1 class="title">OUR LABEL</h1>
+      <div class="body-text">has stayed the same reliable brand for nearly a century</div>
+    </div>
+  </div>
+  <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+</div>
+      
      </div>
 
     </div>
 
     <div id="Contact">
-      <p>You can reach me out Via,,,</p>
+      <p>You can reach me out Via...</p>
       <div class="media">
         <ul>
         <a href="https://twitter.com/saraahmed626"><li class="medialinks"><i class="fa fa-twitter-square"></i></li></a>
