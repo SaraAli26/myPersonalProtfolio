@@ -1,7 +1,6 @@
 body{
 text-align: center;
 font-family: 'Sofia';
-
 }
 #welcome-section{
 background-attachment: fixed;
@@ -12,13 +11,11 @@ height: auto;
 border: none; 
 text-align: center;
 }
-
 img {
 max-width: 100%;
 display: block;
 height: auto;
 }
-
 #projects{
 padding-top: 10vh;
 text-align: center;
@@ -26,7 +23,10 @@ background-color: #ffffff;
 height: auto;
 padding-bottom: 10vh;
 }
-
+.logo {
+display: inline-block;
+ float: left;
+}
 #projectscontainer{
 padding-top: 10vh;
 text-align: center;
@@ -35,7 +35,6 @@ color:#3b3a36;
 display: flex;
 gap: 10px;
 }
-
 .project{
 width: 60%;
 border-radius: 15px;
@@ -44,18 +43,15 @@ margin-right: 50px;
 padding: 20px;
 box-shadow: 10px 10px 5px #cccccc;
 }
-
 .project:hover{
  opacity: 0.7;
 }
-
 nav ul{
 text-align: right;
 position: fixed;
 width: 100%;
 background-color:#ffffff;
 }
-
 nav ul li{
 display: inline-block;
 margin: 40px;
@@ -64,13 +60,11 @@ margin-bottom: 55px;
 margin-bottom: 15px;
 margin-top: 25px;
 }
-
 nav ul li a{
 text-decoration:none;
-color: #3b3a36;
+color: #1a638e;
 font-size: 1.4rem;
 }
-
 h1{
 color: #ffffff;
 font-size: 4rem;
@@ -86,7 +80,8 @@ position: fixed;
 top: 0x;
 left: 0px;
 width: 100%;
-height: 45px;
+height: 50px;
+
 }
 
 #Contact{
@@ -96,7 +91,6 @@ margin: auto;
 padding-top: 10vh;
 padding-bottom: 10vh;
 }
-
 #About{
 padding-top: 20vh;
 background-color: #ffffff;
@@ -107,7 +101,6 @@ color:#3b3a36;
 .media{
 padding-top: 7%;
 }
-
 li.medialinks{
 list-style: none;
 margin: 10px 30px;
@@ -141,16 +134,14 @@ padding: 20px;
 box-shadow: 10px 10px 5px #cccccc;
 text-align: left;
 }
-
 #personalphoto{
 margin-left: 150px;
 padding: 10px;
 box-shadow: 10px 10px 5px #cccccc;
 border-radius: 50%;
 }
-
 p{
-color:#3b3a36;
+color: #1a638e;
 font-weight: bold;
 font-size: 30px;
 }
