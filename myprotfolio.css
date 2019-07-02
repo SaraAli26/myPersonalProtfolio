@@ -17,9 +17,10 @@ display: block;
 height: auto;
 }
 #projects{
+background-color:#e9ece5;
 padding-top: 10vh;
 text-align: center;
-background-color: #ffffff;
+
 height: auto;
 padding-bottom: 10vh;
 }
@@ -31,6 +32,7 @@ display: inline-block;
 padding-top: 10vh;
 text-align: center;
 background-color: #ffffff;
+background-color: #e9ece5;
 color:#3b3a36;
 display: flex;
 gap: 10px;
@@ -80,12 +82,11 @@ position: fixed;
 top: 0x;
 left: 0px;
 width: 100%;
-height: 50px;
+height: auto;
 
 }
 
 #Contact{
-background-color:#e9ece5;
 height: auto;
 margin: auto;
 padding-top: 10vh;
@@ -93,6 +94,7 @@ padding-bottom: 10vh;
 }
 #About{
 padding-top: 20vh;
+padding-bottom: 20vh;
 background-color: #ffffff;
 height: auto;
 color:#3b3a36;
@@ -130,15 +132,15 @@ gap: 2em;
 .aboutsections{
 border-radius: 15px;
 margin-right: 120px;
-padding: 20px;
+padding: 2em;
 box-shadow: 10px 10px 5px #cccccc;
 text-align: left;
 }
 #personalphoto{
-margin-left: 150px;
-padding: 10px;
+margin-left: 10rem;
+padding: 0.5em;
 box-shadow: 10px 10px 5px #cccccc;
-border-radius: 50%;
+border-radius: 55%;
 }
 p{
 color: #1a638e;
